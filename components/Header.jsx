@@ -54,7 +54,7 @@ export default function Header() {
                 </span>{" "}
                 {language === "EN" ? "robust applications" : "aplikasi yang kokoh"}
             </p>
-
+{/* button ini */}
             <div className="flex flex-col sm:flex-row items-center gap-4 mt-4">
                 <a href="#footer"
                     className="px-10 py-2.5 border rounded-full bg-gradient-to-r from-[#B923DF] to-[#7cafea] text-white flex items-center gap-2 dark:border-transparent">
