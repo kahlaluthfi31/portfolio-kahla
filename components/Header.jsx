@@ -58,7 +58,7 @@ export default function Header() {
             <div className="flex flex-col sm:flex-row items-center gap-4 mt-4">
                 <a href="#footer"
                     className="px-10 py-2.5 border rounded-full bg-gradient-to-r from-[#B923DF] to-[#7cafea] text-white flex items-center gap-2 dark:border-transparent">
-                    {language === "EN" ? "Contact me" : "Hubungi Saya"} <img src="/assets/right-arrow-white.png" alt="" className="w-4" />
+                    {language === "EN" ? "Contact Me" : "Hubungi Saya"} <img src="/assets/right-arrow-white.png" alt="" className="w-4" />
                 </a>
 
                 <a href="/assets/CV_Kahla-Luthfiyah-Halim.pdf" download="CV_Kahla-Luthfiyah-Halim.pdf"
