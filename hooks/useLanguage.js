@@ -1,15 +1,10 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useSyncExternalStore } from "react";
 
 const LANGUAGE_KEY = "language";
 
 const normalizeLanguage = (value) => (value === "EN" ? "EN" : "ID");
-
-const getStoredLanguage = () => {
-  if (typeof window === "undefined") return "ID";
-  return normalizeLanguage(localStorage.getItem(LANGUAGE_KEY));
-};
 
 const applyDocumentLanguage = (language) => {
   if (typeof document === "undefined") return;
@@ -26,28 +21,36 @@ export const setAppLanguage = (language) => {
   );
 };
 
+const subscribeLanguage = (callback) => {
+  if (typeof window === "undefined") return () => {};
+
+  const handleLanguageEvent = () => callback();
+  const handleStorage = (event) => {
+    if (event.key === LANGUAGE_KEY) callback();
+  };
+
+  window.addEventListener("app-language-change", handleLanguageEvent);
+  window.addEventListener("storage", handleStorage);
+
+  return () => {
+    window.removeEventListener("app-language-change", handleLanguageEvent);
+    window.removeEventListener("storage", handleStorage);
+  };
+};
+
+const getLanguageSnapshot = () => {
+  if (typeof window === "undefined") return "ID";
+  return normalizeLanguage(localStorage.getItem(LANGUAGE_KEY));
+};
+
+const getLanguageServerSnapshot = () => "ID";
+
 export function useLanguage() {
-  const [language, setLanguage] = useState(getStoredLanguage);
-
-  useEffect(() => {
-    const handleLanguageEvent = (event) => {
-      setLanguage(normalizeLanguage(event.detail));
-    };
-
-    const handleStorage = (event) => {
-      if (event.key === LANGUAGE_KEY) {
-        setLanguage(normalizeLanguage(event.newValue));
-      }
-    };
-
-    window.addEventListener("app-language-change", handleLanguageEvent);
-    window.addEventListener("storage", handleStorage);
-
-    return () => {
-      window.removeEventListener("app-language-change", handleLanguageEvent);
-      window.removeEventListener("storage", handleStorage);
-    };
-  }, []);
+  const language = useSyncExternalStore(
+    subscribeLanguage,
+    getLanguageSnapshot,
+    getLanguageServerSnapshot
+  );
 
   useEffect(() => {
     applyDocumentLanguage(language);

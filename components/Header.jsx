@@ -33,7 +33,7 @@ export default function Header() {
 
     return (
         <div className="w-11/12 max-w-3xl text-center mx-auto h-screen flex flex-col items-center justify-center gap-4">
-            {/* <img src="/assets/profile-img.png" alt="" className="rounded-full w-32" /> */}
+            <img src="/assets/profile-img.png" alt="" className="rounded-full w-32" />
             <h3 className="flex items-end gap-2 text-xl md:text-2xl mb-3 font-Ovo">
                 Kahla Luthfiyah Halim
             </h3>
@@ -61,7 +61,7 @@ export default function Header() {
                     {language === "EN" ? "Contact Me" : "Hubungi Saya"} <img src="/assets/right-arrow-white.png" alt="" className="w-4" />
                 </a>
 
-                <a href="/assets/CV_Kahla-Luthfiyah-Halim.pdf" download="CV_Kahla-Luthfiyah-Halim.pdf"
+                <a href="https://docs.google.com/document/d/1kRfCJYL2wVOPgXb7v0bIFhJR0P8x5tc7MdfK8JP0ZOI/edit?usp=sharing" target="_blank" rel="noopener noreferrer"
                     className="px-10 py-2.5 rounded-full border border-gray-300 dark:border-white/25 hover:bg-slate-100/70 dark:hover:bg-darkHover flex items-center gap-2 bg-white dark:bg-transparent dark:text-white">
                     {language === "EN" ? "Download CV" : "Unduh CV"} <img src="/assets/download-icon.png" alt="" className="w-4 dark:invert" />
                 </a>

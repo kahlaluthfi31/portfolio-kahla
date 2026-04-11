@@ -12,13 +12,13 @@ export default function About() {
         : "-";
 
     const tools = [
+        { name: 'React', icon: '/assets/react.svg' },
         { name: 'JavaScript', icon: '/assets/JavaScript.png' },
         { name: 'Bootstrap CSS', icon: '/assets/bootstrap.svg' },
         { name: 'Laravel', icon: '/assets/laravel.png' },
         { name: 'MySql (Integrasi API)', icon: '/assets/my-sql.png' },
-        { name: 'PHP', icon: '/assets/php.png' },
         { name: 'Git', icon: '/assets/git.png' },
-        { name: 'TailwindCSS', icon: '/assets/react.svg' },
+        { name: 'TailwindCSS', icon: '/assets/tailwind.png' },
         { name: 'HTML/CSS', icon: '/assets/html-css.png' },
         { name: 'Github', icon: '/assets/git.png' },
         { name: 'dbDiagram', icon: '/assets/dbdiagram-io.png' },
