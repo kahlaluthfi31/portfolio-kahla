@@ -13,7 +13,7 @@ const ovo = Ovo({
 });
 
 export const metadata = {
-    title: "Kahla Portfolio",
+    title: "Portfolio - Kahla Luthfiyah Halim",
     description: "Kahla Luthfiyah Halim is a Full-Stack Web Developer based in Indonesian. I am a self-taught developer with 3 years of experience in multiple companies.",
     icons: {
         icon: "/assets/dev-icon.png",
