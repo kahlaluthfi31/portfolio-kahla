@@ -78,7 +78,7 @@ export default function Navbar() {
                         onClick={toggleLanguage}
                         className="text-sm px-3 py-1.5 rounded-full border border-gray-300 dark:border-white/30 hover:bg-slate-100/70 dark:hover:bg-darkHover transition"
                     >
-                        {language}
+                        {language === 'EN' ? 'ID' : 'EN'}
                     </button>
 
                     <button className="block md:hidden ml-3" onClick={openMenu}>
