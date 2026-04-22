@@ -78,6 +78,18 @@ export default function Work() {
             },
             size: "md",
         },
+        {
+            name: "Website Penjahit - RBA",
+            icon: "/assets/penjahit.png",
+            year: "Apr 2026",
+            link: "",
+            category: { ID: "APLIKASI BISNIS", EN: "BUSINESS APP" },
+            summary: {
+                ID: "Platform website untuk bisnis penjahit dengan fitur contoh dan harga paket produk, pemesanan online, dan manajemen pelanggan.",
+                EN: "Website platform for tailoring business with product samples and pricing packages, online ordering, and customer management features.",
+            },
+            size: "md",
+        }
     ];
 
     const cardSizeClass = {
