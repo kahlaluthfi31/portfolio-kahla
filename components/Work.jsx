@@ -59,12 +59,24 @@ export default function Work() {
             icon: "/assets/perpus.png",
             year: "Apr 2026",
             link: "https://library-project-mu-orcin.vercel.app",
-            category: { ID: "APLIKASI BISNIS", EN: "BUSINESS APP" },
+            category: { ID: "PENGEMBANGAN WEB", EN: "WEB DEVELOPMENT" },
             summary: {
                 ID: "Platform website perpustakaan yang menyediakan berbagai layanan dan informasi terkait peminjaman buku, katalog, dan manajemen anggota secara online.",
                 EN: "Library website platform that provides various services and information related to book borrowing, catalogs, and member management online.",
             },
             size: "lg",
+        },
+        {
+            name: "Portfolio",
+            icon: "/assets/portfolio.png",
+            year: "Mar 2026",
+            link: "https://portfolio-kahla.vercel.app",
+            category: { ID: "PENGEMBANGAN WEB", EN: "WEB DEVELOPMENT" },
+            summary: {
+                ID: "Platform website portofolio saya sendiri yang menampilkan berbagai proyek dan tentang diri sendiri.",
+                EN: "My personal portfolio website showcasing various projects and information about myself.",
+            },
+            size: "md",
         },
     ];
 
