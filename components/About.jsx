@@ -18,6 +18,7 @@ export default function About() {
         { name: 'Vue.js', icon: '/assets/vue.webp' },
         { name: 'Laravel', icon: '/assets/laravel.png' },
         { name: 'JavaScript', icon: '/assets/JavaScript.png' },
+        { name: 'Supabase', icon: '/assets/supabase.png' },
         { name: 'MySql (Integrasi API)', icon: '/assets/my-sql.png' },
         { name: 'MongoDB', icon: '/assets/mongodb.png' },
         { name: 'HTML/CSS', icon: '/assets/html-css.png' },
