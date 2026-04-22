@@ -82,7 +82,7 @@ export default function Work() {
             name: "Website Penjahit - RBA",
             icon: "/assets/penjahit.png",
             year: "Apr 2026",
-            link: "",
+            link: "https://penjahit-rba.vercel.app",
             category: { ID: "APLIKASI BISNIS", EN: "BUSINESS APP" },
             summary: {
                 ID: "Platform website untuk bisnis penjahit dengan fitur contoh dan harga paket produk, pemesanan online, dan manajemen pelanggan.",
