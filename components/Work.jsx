@@ -94,7 +94,7 @@ export default function Work() {
             name: "DoPlanZ - Plan it, Do it",
             icon: "/assets/doplanz.png",
             year: "Jun 2026",
-            link: "https://doplanz.vercel.app",
+            link: "https://doplanz.wiska.site",
             category: { ID: "APLIKASI MOBILE", EN: "MOBILE APP" },
             summary: {
                 ID: "Platform website untuk manajemen tugas berdasarkan kategori dengan fitur perencanaan, penjadwalan, dan laporan.",
