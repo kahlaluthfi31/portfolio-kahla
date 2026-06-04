@@ -89,6 +89,18 @@ export default function Work() {
                 EN: "Website platform for tailoring business with product samples and pricing packages, online ordering, and customer management features.",
             },
             size: "md",
+        },
+        {
+            name: "DoPlanZ - Plan it, Do it",
+            icon: "/assets/doplanz.png",
+            year: "Jun 2026",
+            link: "https://doplanz.vercel.app",
+            category: { ID: "APLIKASI MOBILE", EN: "MOBILE APP" },
+            summary: {
+                ID: "Platform website untuk manajemen tugas berdasarkan kategori dengan fitur perencanaan, penjadwalan, dan laporan.",
+                EN: "Categorized task management web platform with planning, scheduling, and reporting tools.",
+            },
+            size: "lg",
         }
     ];
 
