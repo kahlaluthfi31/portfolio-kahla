@@ -76,7 +76,7 @@ export default function Work() {
       year: "Feb - Mar 2026",
       link: "https://www.smkn1ciamis.id/",
       category: { ID: "PENGEMBANGAN WEB", EN: "WEB DEVELOPMENT" },
-      techStack: ["TypeScript", "JavaScript", "Next.js", "React", "TailwindCSS", "MySQL"],
+      techStack: ["TypeScript", "JavaScript", "Next.js", "React", "TailwindCSS", "MySQL", "RESTful API"],
       summary: {
         ID: "Platform website sekolah dengan informasi akademik, profil, dan konten publik.",
         EN: "School website platform with academic information, profile, and public content.",
@@ -135,7 +135,7 @@ export default function Work() {
       year: "Apr 2026",
       link: "https://library-project-mu-orcin.vercel.app",
       category: { ID: "PENGEMBANGAN WEB", EN: "WEB DEVELOPMENT" },
-      techStack: ["Laravel"],
+      techStack: ["Laravel", "PHP", "JavaScript", "TailwindCSS", "PostgreSQL", "Supabase", "Vercel"],
       summary: {
         ID: "Platform website perpustakaan yang menyediakan berbagai layanan dan informasi terkait peminjaman buku, katalog, dan manajemen anggota secara online.",
         EN: "Library website platform that provides various services and information related to book borrowing, catalogs, and member management online.",
@@ -148,7 +148,7 @@ export default function Work() {
       year: "Mar 2026",
       link: "https://portfolio-kahla.vercel.app",
       category: { ID: "PENGEMBANGAN WEB", EN: "WEB DEVELOPMENT" },
-      techStack: ["Laravel"],
+      techStack: ["Next.js", "React", "TailwindCSS", "Vercel"],
       summary: {
         ID: "Platform website portofolio saya sendiri yang menampilkan berbagai proyek dan tentang diri sendiri.",
         EN: "My personal portfolio website showcasing various projects and information about myself.",
@@ -161,7 +161,7 @@ export default function Work() {
       year: "Apr 2026",
       link: "https://penjahit-rba.vercel.app",
       category: { ID: "APLIKASI BISNIS", EN: "BUSINESS APP" },
-      techStack: ["Laravel"],
+      techStack: ["Next.js", "React", "TypeScript", "TailwindCSS", "Vercel"],
       summary: {
         ID: "Platform website untuk bisnis penjahit dengan fitur contoh dan harga paket produk, pemesanan online, dan manajemen pelanggan.",
         EN: "Website platform for tailoring business with product samples and pricing packages, online ordering, and customer management features.",
