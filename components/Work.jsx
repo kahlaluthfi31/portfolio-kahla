@@ -73,7 +73,7 @@ export default function Work() {
     {
       name: "Website Sekolah",
       icon: "/assets/web-sekolah.png",
-      year: "Feb - March 2026",
+      year: "Feb - Mar 2026",
       link: "https://www.smkn1ciamis.id/",
       category: { ID: "PENGEMBANGAN WEB", EN: "WEB DEVELOPMENT" },
       techStack: ["TypeScript", "JavaScript", "Next.js", "React", "TailwindCSS", "MySQL"],
@@ -145,7 +145,7 @@ export default function Work() {
     {
       name: "Portfolio",
       icon: "/assets/portfolio.png",
-      year: "March 2026",
+      year: "Mar 2026",
       link: "https://portfolio-kahla.vercel.app",
       category: { ID: "PENGEMBANGAN WEB", EN: "WEB DEVELOPMENT" },
       techStack: ["Laravel"],
