@@ -79,6 +79,7 @@ export default function Work() {
       techStack: [
         "TypeScript",
         "JavaScript",
+        "Node.js",
         "Next.js",
         "React",
         "TailwindCSS",
