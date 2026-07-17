@@ -18,6 +18,7 @@ export default function About() {
     { name: "TypeScript", icon: "/assets/typescript.png" },
     { name: "JavaScript", icon: "/assets/JavaScript.png" },
     { name: "Laravel", icon: "/assets/laravel.png" },
+    { name: "Astro", icon: "/assets/astro.png" },
     { name: "Supabase", icon: "/assets/supabase.png" },
     { name: "MySql (Integrasi API)", icon: "/assets/my-sql.png" },
     { name: "MongoDB", icon: "/assets/mongodb.png" },
