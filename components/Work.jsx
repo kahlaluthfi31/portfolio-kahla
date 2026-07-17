@@ -241,6 +241,19 @@ export default function Work() {
       },
       size: "lg",
     },
+    {
+      name: "Totalitas Sports Internal Website - Cakrawala Bersinar",
+      icon: "/assets/totalitas.png",
+      year: "Jul 2026",
+      link: "",
+      category: { ID: "SISTEM INTERNAL", EN: "INTERNAL SYSTEM" },
+      techStack: ["Laravel", "PHP", "PostgreSQL", "Supabase","TailwindCSS","HTML/CSS","JavaScript","Vercel"],
+      summary: {
+        ID: "Platform website untuk manajemen internal bisnis untuk mencatat penjualan, stok barang, stok bahan hingga pembuatan slip gaji bagi para pekerja.",
+        EN: "Website Platform for internal business management to search for sales, stock of goods, stock of materials to the manufacture of payslips for employees",
+      },
+      size: "md",
+    },
   ];
 
   const cardSizeClass = {
