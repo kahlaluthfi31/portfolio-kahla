@@ -7,7 +7,7 @@ export default function WorkingExp() {
   const { language } = useLanguage();
 
   return (
-    <section id="working-exp" className="w-full px-[12%] py-10 scroll-mt-20">
+    <section id="experience" className="w-full px-[12%] py-10 scroll-mt-20">
       <h4 className="text-center mb-2 text-lg font-Ovo">
         {language === "EN" ? "Work Journey" : "Riwayat Pekerjaan"}
       </h4>

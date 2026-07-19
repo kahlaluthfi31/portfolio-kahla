@@ -42,10 +42,10 @@ function TechIcon({ tech, active, onClick }) {
         e.preventDefault();
         onClick();
       }}
-      className={`flex items-center rounded-md bg-white/5 border transition-all duration-300 overflow-hidden focus:outline-none ${
+      className={`flex items-center rounded-md bg-black/5 dark:bg-white/5 border transition-all duration-300 overflow-hidden focus:outline-none ${
         active
-          ? "gap-1.5 px-2.5 py-1 border-white/30"
-          : "gap-0 px-1.5 py-1.5 border-white/10 hover:border-white/20 hover:bg-white/10"
+          ? "gap-1.5 px-2.5 py-1 border-black/20 dark:border-white/30"
+          : "gap-0 px-1.5 py-1.5 border-black/10 dark:border-white/10 hover:border-black/20 hover:bg-black/10 dark:hover:border-white/20 dark:hover:bg-white/10"
       }`}
       title={meta.label}
     >
@@ -55,7 +55,7 @@ function TechIcon({ tech, active, onClick }) {
         className="w-3.5 h-3.5 object-contain shrink-0"
       />
       <span
-        className={`text-[10px] font-medium text-white/90 whitespace-nowrap transition-all duration-300 ${
+        className={`text-[10px] font-medium text-black/70 dark:text-white/90 whitespace-nowrap transition-all duration-300 ${
           active ? "max-w-[100px] opacity-100" : "max-w-0 opacity-0"
         }`}
       >

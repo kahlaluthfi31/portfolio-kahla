@@ -6,9 +6,9 @@ export const workingExpList = [
         period: "Jul 2026 — Sekarang",
         periodEn: "Jul 2026 — Present",
         descriptionId:
-            "Menjelaskan tanggung jawab dan pencapaian kamu selama bekerja di sini menggunakan bahasa Indonesia secara detail.",
+            "Membangun website perusahaan bagi klien Inquivix untuk mendukung kebutuhan bisnis mereka.",
         descriptionEn:
-            "Describing your responsibilities and achievements during your time here in detailed English.",
+            "Build corporate websites for Inquivix clients to support their business needs.",
     },
     {
         perusahaan: "Cakrawala Bersinar (Totalitas Sports) - Ciamis, Jawa Barat",
