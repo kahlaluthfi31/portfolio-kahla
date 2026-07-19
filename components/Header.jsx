@@ -61,10 +61,10 @@ export default function Header() {
                     {language === "EN" ? "Contact Me" : "Hubungi Saya"} <img src="/assets/right-arrow-white.png" alt="" className="w-4" />
                 </a>
 
-                <a href="https://docs.google.com/document/d/1kRfCJYL2wVOPgXb7v0bIFhJR0P8x5tc7MdfK8JP0ZOI/edit?usp=sharing" target="_blank" rel="noopener noreferrer"
+                {/* <a href="https://docs.google.com/document/d/1kRfCJYL2wVOPgXb7v0bIFhJR0P8x5tc7MdfK8JP0ZOI/edit?usp=sharing" target="_blank" rel="noopener noreferrer"
                     className="px-10 py-2.5 rounded-full border border-gray-300 dark:border-white/25 hover:bg-slate-100/70 dark:hover:bg-darkHover flex items-center gap-2 bg-white dark:bg-transparent dark:text-white">
                     {language === "EN" ? "Download CV" : "Unduh CV"} <img src="/assets/download-icon.png" alt="" className="w-4 dark:invert" />
-                </a>
+                </a> */}
             </div>
         </div>
     )
